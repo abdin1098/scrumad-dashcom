@@ -1,0 +1,26 @@
+.card {
+    background-color: #ffffff;
+    border: 1px solid #99b2c6;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 280px;
+    text-align: center;
+    width: 70%;
+  }
+  .card1 {
+    background-color: #ffffff;
+    border: 1px solid #99b2c6;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 280px;
+    text-align: center;
+    height: 100%;
+  }
+  .accounting-content{
+    display: flex;
+  }
+  .heading{
+    
+  }

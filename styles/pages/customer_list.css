@@ -1,0 +1,260 @@
+.card {
+    background-color: #ffffff;
+    border: 0.1px solid lightgrey;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 2px;
+    margin-top: 25px;
+    width: auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-family: "proxima-nova", sans-serif;
+    font-size: small;
+}
+
+th {
+    position: relative;
+    width: auto;
+    color: #809fb8;
+}
+
+.up-arrow {
+    margin-bottom: 4px;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+.circle-img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    color: black;
+    border-radius: 15%;
+    cursor: pointer;
+    height: 35px;
+    width: auto;
+}
+
+.btn:hover {
+    background-color: #f1f4f9;
+}
+
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 25%;
+    height: auto;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-left: 5px;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: lightgreen;
+    color: green;
+    font-size: 14px;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.status1 {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: red;
+    color: lightgray;
+    font-size: 14px;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.status2 {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: gray;
+    color: lightgray;
+    font-size: 14px;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: white;
+    color: black;
+    width: auto;
+    height: 3em;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.pagination button:hover {
+    background-color: #f1f4f9;
+}
+
+.pagination button.active {
+    background-color: #3a36db;
+    color: white;
+}
+
+.pagination .ellipsis {
+    margin: 0 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: #f1f4f9;
+    color: black;
+    width: auto;
+    height: 1.5em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-top: 9px;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(113% - 146px);
+    }
+
+    td {
+        display: grid;
+    }
+
+    .table {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .one {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .button1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dropdown-btn{
+        width: 40% !important;
+        justify-content: space-evenly !important;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .card {
+        width: calc(110% - 80px);
+    }
+
+    td {
+        display: grid;
+    }
+
+    .table {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .one {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .button1 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+

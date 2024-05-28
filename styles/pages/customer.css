@@ -1,0 +1,116 @@
+.customer-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #99b2c6;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  width: 280px;
+  text-align: center;
+}
+
+.dot-button {
+  font-size: 18px;
+}
+
+address {
+  font-style: normal !important;
+  padding-top: 10px;
+}
+
+.card img {
+  width: 30%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  color: blue;
+}
+
+.card .content {
+  padding: 15px;
+}
+
+.card h2 {
+  color: #333333;
+  font-size: 24px;
+  margin-top: 2rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-dot-active,
+.logo-dot-inactive {
+  width: 13px;
+  height: 13px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: -10px auto 0;
+  position: relative;
+}
+
+.logo-dot-active {
+  background-color: green;
+}
+
+.logo-dot-inactive {
+  background-color: #666666;
+}
+
+.card-info {
+  text-align: start;
+}
+
+.card-info-1 {
+  text-decoration: none;
+  color: #7792a7;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.button {
+  display: block;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.submit-button {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: lightgray;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.submit-button:hover {
+  background-color: blue;
+}
+
+b{
+  line-break: anywhere;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 100px);
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: calc(100% - 40px);
+  }
+}
