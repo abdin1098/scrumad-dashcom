@@ -13,7 +13,8 @@
 
     <!-- Your custom styles -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/pages/customer.css">
+    <!-- <link rel="stylesheet" href="styles/pages/customer.css"> -->
+    <link rel="stylesheet" href="styles/pages/accounting2.css">
 </head>
 
 <body>
@@ -29,13 +30,14 @@
 
             <div class="col-md-9 main" id="main">
                 <div class="content">
-                    <?php include 
-                    './components/topbar.php'
-                     ?>
-                    <section class="customer-content">
-                        <?php include './content/customer_content.php' ?>
+                    <?php include './components/topbar.php' ?>
+                    <section class="report-content">
+                        <?php include './content/accounting2_content.php' ?>
+                        
+                            <!-- <button class="button submit-button">Submit</button> -->
+                        
                     </section>
-                    <div class="load-btn"><button class="load-btn-1">Load More</button></div>
+
                 </div>
             </div>
         </div>
@@ -44,6 +46,7 @@
     <!-- Bootstrap JS (Optional) -->
     <script src="./scripts/main.js"></script>
     <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/pages/schedule.js"></script>
 </body>
 
 </html>

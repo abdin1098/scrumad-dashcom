@@ -17,8 +17,7 @@
             <li><a href="das.html"><i class="menu_icon fa-solid fa-house"></i>Dashboard</a></li>
             <li><a href="Analytics.html"><i class="menu_icon fa-solid fa-wand-magic-sparkles"></i>Analytics</a></li>
             <li><a href="Sales.html"><i class="menu_icon fa-solid fa-capsules"></i>Sales</a></li>
-            <li><a href="Products.html"><i class="menu_icon fa-brands fa-product-hunt"></i>Products</a>
-            </li>
+            <li><a href="Products.html"><i class="menu_icon fa-brands fa-product-hunt"></i>Products</a></li>
             <li><a href="customer.html"><i class="menu_icon fa-solid fa-users-line"></i>Customer</a>
             </li>
             <li><a href="Traffic.html"><i class="menu_icon fa-solid fa-xmark"></i>Traffic</a></li>
@@ -63,5 +62,4 @@
 
         </footer>
     </nav>
-    <!-- </header> -->
 </div>

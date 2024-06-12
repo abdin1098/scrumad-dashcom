@@ -364,7 +364,6 @@ h2.top_heading {
 }
 
 .sidebar .closebtn {
-  /* position: absolute; */
   top: 0;
   right: 25px;
   font-size: 36px;
@@ -434,7 +433,220 @@ input[type="search"]:focus-visible {
   display: none;
 }
 
+.user-log {
+  left: -1.5em;
+}
+
+@media (min-width: 130px) and (max-width: 186px) {
+  .menu {
+    margin-top: 0rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .menu a {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    margin-left: 0.1em !important;
+  }
+
+  .img-h1 {
+    margin-left: 0.2em !important;
+  }
+
+  .img-icon {
+    max-width: 40px;
+  }
+
+  h6 {
+    font-size: 0.7rem !important;
+  }
+
+  .small {
+    line-break: anywhere;
+    margin-left: 0px;
+  }
+
+  .closebtn {
+    margin-left: 5px !important;
+  }
+  .newest-icons {
+    top: 177px;
+    left: -7px;
+    min-width: 8rem;
+  }
+
+  .bell-icons {
+    top: 113px !important;
+    left: -8px !important;
+    min-width: 8rem;
+  }
+
+  .icon-flag {
+    top: 115px !important;
+    left: -65px !important;
+    min-width: 8rem;
+  }
+
+  .user-log {
+    top: 52px !important;
+    left: -7px !important;
+    min-width: 8rem;
+  }
+}
+
+@media (min-width: 187px) and (max-width: 220px) {
+
+  .dropdown-menu {
+  
+    top: 118px;
+    left: -3px;
+    min-width: 9rem;
+    margin: .125rem 0 0;
+    padding: .5rem 0;
+   
+  }
+
+  .icon-flag {
+    top: 55px !important;
+    left: -3px !important;
+  }
+
+  .user-log {
+    top: 53px !important;
+    left: -58px !important;
+  }
+
+  .bell-icons {
+    top: 118px !important;
+    left: -117px !important;
+  }
+}
+
+@media (min-width: 221px) and (max-width: 246px) {
+
+  .newest-icons {
+    top: 115px;
+    left: -4px;
+    min-width: 9rem;
+  }
+
+  .bell-icons {
+    top: 113px !important;
+    left: -122px !important;
+    min-width: 9rem;
+  }
+
+  .icon-flag {
+    top: 49px !important;
+    left: -6px !important;
+    min-width: 9rem;
+  }
+
+  .user-log {
+    top: 52px !important;
+    left: -63px !important;
+    min-width: 9rem;
+  }
+}
+@media (min-width: 247px) and (max-width: 299px) {
+  .newest-icons {
+    top: 115px;
+    left: -6px;
+    min-width: 9rem;
+  }
+
+  .bell-icons {
+    top: 113px !important;
+    left: -122px !important;
+    min-width: 9rem;
+  }
+
+  .icon-flag {
+    top: 115px !important;
+    left: -178px !important;
+    min-width: 9rem;
+  }
+
+  .user-log {
+    top: 52px !important;
+    left: -7px !important;
+    min-width: 9rem;
+  }
+}
+
+
+@media (max-width: 300px) {
+  .topbar-right-side-dropdown {
+    margin-left: 0em;
+  }
+
+  .filter-dropdown {
+    width: 8em;
+  }
+
+  .menu {
+    margin-top: 0rem !important;
+    margin-left: -0.3rem !important;
+  }
+
+  .menu a {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    margin-left: 0.1em !important;
+  }
+
+  .img-h1 {
+    margin-left: 0.2em !important;
+  }
+
+  .img-icon {
+    max-width: 40px;
+  }
+
+  h6 {
+    font-size: 0.7rem !important;
+  }
+
+  .small {
+    line-break: anywhere;
+    margin-left: 0px;
+  }
+
+  .closebtn {
+    margin-left: 5px !important;
+  }
+}
+
+@media (max-width: 525px) {
+
+  .topbar-mobile {
+    margin-top: 1em;
+    margin-left: 0em;
+
+  }
+
+  .mobile-header {
+    flex-wrap: wrap;
+  }
+
+  .topbar-right-side-dropdown {
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    margin-left: -1em;
+  }
+
+}
+
 @media (max-width: 425px) {
+
   .sidebar {
     display: none;
     width: 100%;
@@ -475,8 +687,8 @@ input[type="search"]:focus-visible {
     margin-right: 2rem;
   }
 
-  .content{
-    padding: 0  ;
+  .content {
+    padding: 0;
   }
 
   .header-content {
@@ -546,12 +758,13 @@ input[type="search"]:focus-visible {
   }
 
   #sidebarToggleBtn {
-    display: block;
+    display: none;
   }
+
 }
 
 @media (min-width: 769px) and (max-width: 1440) {
-  
+
   .sidebar {
     display: none;
   }
@@ -564,12 +777,12 @@ input[type="search"]:focus-visible {
   }
 
   #sidebarToggleBtn {
-    display: none;
+    display: none !important;
   }
 }
 
 @media (max-width: 768px) {
-  
+
   /* .sidebar {
     display: none;
   }
@@ -618,8 +831,8 @@ input[type="search"]:focus-visible {
     margin-right: 2rem;
   }
 
-  .content{
-    padding: 0  ;
+  .content {
+    padding: 0;
   }
 
   .header-content {
