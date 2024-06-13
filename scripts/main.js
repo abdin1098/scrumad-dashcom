@@ -14,6 +14,3 @@ function closeNav() {
     sidebarToggleBtn.style.display = 'block';
     closebtn.style.display = 'none';
 }
-
-
-

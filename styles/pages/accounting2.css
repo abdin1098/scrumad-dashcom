@@ -1,11 +1,16 @@
+.main-content {
+    display: flex;
+    gap: 1rem;
+}
+
 .card {
     background-color: #ffffff;
     border: 0.1px solid lightgrey;
     border-radius: 15px;
     padding: 20px;
     margin-top: 1em;
-    width: 15em;
-    height: 42em;
+    width: -webkit-fill-available;
+    height: max-content;
     overflow: hidden;
 }
 
@@ -15,13 +20,25 @@
     border-radius: 15px;
     margin-top: 1em;
     width: 100%;
-    height: 10em;
+    height: 12rem;
 }
 
 .header1 {
     display: flex;
     justify-content: space-between;
     margin-top: -1em;
+}
+
+.count {
+    margin: 1em;
+    margin-top: 2em;
+}
+
+.counter-badge {
+    background-color: #99b2c6;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 1rem
 }
 
 .public-profile {
@@ -55,6 +72,92 @@
     color: white !important;
     background-color: #3a36db !important;
 }
-.user-description{
+
+.user-description {
     margin-left: 0.7em;
+}
+
+.img-schedule {
+    display: flex;
+    margin-left: 0.5em;
+}
+
+.circle-image1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+}
+
+.circle-image2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+    margin-left: -26px;
+    z-index: 1;
+}
+
+.circle-image3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+    margin-left: -26px;
+    z-index: 1;
+}
+
+.circle-image4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: 6px;
+}
+
+.w3-light-grey {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border-radius: 50px;
+    margin: 0.5em;
+}
+
+.w3-green {
+    border-radius: 50px;
+}
+
+.w3-green,
+.w3-hover-green:hover {
+    color: #fff !important;
+    background-color: hsl(160.43deg 78.24% 46) !important;
+}
+
+.status-check {
+    display: flex;
+    justify-content: end;
+}
+
+.status-btn {
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: hsl(359.15deg 81.61% 82.94%);
+    color: hsl(358.83deg 81.05% 62.75%);
+    font-size: 12px;
+    margin-top: 0.3em;
+    margin-right: 0.5em;
+}
+
+.attach-check {
+    margin-top: 0.7em;
+    margin-right: 1em;
+    color: #809fb8;
+}
+
+.attach-check1 {
+    margin-left: 0.5em;
+
 }
